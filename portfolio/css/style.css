@@ -1,0 +1,258 @@
+.centered {
+  text-align: center
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  color: #1abc9c;
+}
+
+.navbar-default {
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #1abc9c;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: #666;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.info {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#headerwrap {
+  background: url(../img/bg-4.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+@media (max-width: 768px) {
+  #headerwrap {
+    padding-top: 180px;
+  }
+}
+
+#sujet {
+  background: url(../img/coding.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sujet2 {
+  background: url(../img/retro.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sujet3 {
+  background: url(../img/retro2.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sujet h1, #sujet2 h1, #sujet3 h1 {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#sujet h4, #sujet2 h4, #sujet3 h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+/* formulaire de contact */
+
+#contact {
+  margin-top: 8%;
+  padding: 40px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-form label {
+  color: #999;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button {
+  background: #1abc9c;
+  border: 0;
+  padding: 14px 40px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.contact-form .form-send button:hover {
+  background: #2addb9;
+}
+
+/* espacement entre les images et paragraphes */
+
+.mg {
+  margin-top: 15%;
+}
+
+/* footer espacement */
+
+#footer {
+  margin-bottom: 2%;
+}
+
+#accueil {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cv {
+  margin-top: 0%;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-responsive2 {
+  width: 50%;
+  height: auto;
+}
+
+/* style dropdown menu */
+
+a, a:hover{
+  color: black;
+}
