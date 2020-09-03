@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #2addb9;
 }
 
-/* espacement entre les images et paragraphes */
+/* espacement entre les img et paragraphes */
 
 .mg {
   margin-top: 15%;
@@ -253,6 +253,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* style dropdown menu */
 
-a, a:hover{
+a, a:hover {
   color: black;
+}
+
+#espace {
+  margin-top: 4%;
 }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Des radars enfouis pour pallier une mauvaise météo
+
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="../img/favicon.svg" rel="icon">
+
+  <!-- Police Google -->
+  <link href="../https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="../bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Fichier style principal -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- barre de navigation statique -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">Thibaud BONNEVILLE</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../cv.html">CV</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Projets
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <p><a class="dropdown-item" href="../projet1.html">Projet jeu C</a></p>
+              <p><a class="dropdown-item" href="../projet2.html">Projet PPE site dynamique</a></p>
+              <p><a class="dropdown-item" href="../projet3.html">Projet jeu Java</a></p>
+            </div>
+          </li>
+          <li class="active"><a href="../veille.html" class="smoothscroll">Veille technologique</a>
+          </li>
+          <li><a href="../contact.html" class="smoothscroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="espace">
+    <h2><b>Des radars enfouis pour pallier une mauvaise météo.</b></h2>
+    <h6><b>25 février 2020</b></h6>
+    <h6>Par Lila Meghraoua et Charlie Osborne</h6>
+    <h4>Pour guider une voiture autonome en cas d'intempéries, une équipe de chercheurs du MIT a adopté une approche
+      littéralement underground. Grâce à un radar, le LGPR, la voiture ne « regarde » pas devant, mais sous le
+      sol.
+    </h4>
+
+    <img src="../img/sous-la-route.jpg" width="80%" height="80%" class="img">
+
+    <p>Pluie, neige, voitures autonomes et sécurité font mauvais ménage : les capteurs et les caméras qui dotent les
+      véhicules intelligents ne reconnaissent pas ou reconnaissent mal le marquage au sol ou les panneaux
+      signalétiques couverts en partie par la neige. La technologie LiDAR, qui consiste en de la télédétection par
+      laser, utilisée dans les voitures autonomes, se révèle moins efficace. La neige et la pluie brouillent le
+      laser et il suffit d'une petite marge d'erreur causée par la pluie, la neige ou le brouillard pour qu'une
+      catastrophe se produise.
+    </p>
+
+    <h4><b>Créer une carte alternative sous terre</b></h4>
+
+    <p>
+      Le Computer Science and Artificial Intelligence Laboratory (CSAIL), le laboratoire de recherche en
+      intelligence artificielle du MIT a donc adopté une autre approche : Et si au lieu de regarder devant pour se
+      guider, les voitures
+      autonomes regardaient sous la route ?</p>
+
+    <p> Une équipe du CSAIL, aidé du Lincoln Laboratory, a ainsi imaginé un système reposant sur un radar
+      ultra-perçant, capable de « regarder » sous la route pour se repérer : le LGPR, version amélioré du RPS, un
+      radar à pénétration de sol. Le RPS est déjà utilisé pour localiser des canalisations, des mines terrestres,
+      repérer les tunnels dans le sous-sol. Cette technologie s’est révélée jusque là plus utile au secteur du
+      bâtiment qu'à celui de l’automobile. </p>
+
+    <p>Concrètement, le LGPR cartographie et mesure ce qui se trouve sous terre, en envoyant des impulsions
+      électromagnétiques. Le radar analyse et enregistre la composition du sol ; par exemple, si c’est de la
+      roche, s’il y a beaucoup de racines. Une fois la vie souterraine de la route cartographiée et équipées de
+      cette connaissance, les voitures autonomes lancées sur la route scannent de façon continue la composition du
+      sol. Elles comparent donc la carte préétablie avec ces données captées en continu, ce qui leur permettent de
+      savoir où elles sont.</p>
+
+    <p>Mais l'instrumentation du CSAIL est encore en période de test. Il a été testée uniquement sur une route de
+      campagne fermée et à faible vitesse, et n'est donc pas en état de marche pour le moment.</p>
+
+    <!-- Sources -->
+    <p class="text-right"><a
+        href="https://flipboard.com/@ZDNetFrance/voiture-autonome-des-radars-enfouis-pour-pallier-une-mauvaise-m-t-o/a-Tiogg_kySzKCOeKOU89Qvw%3Aa%3A2528201490-b914d0bc5d%2Fzdnet.fr"
+        class="text-dark" target="_blank">Source 1 : flipboard</a></p>
+    <p class="text-right"><a
+        href="https://usbeketrica.com/article/sous-la-neige-une-voiture-autonome-roule-en-regardant-sous-la-route"
+        class="text-dark" target="_blank">Source 2 : usbeketrica</a></p>
+  </div>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container-fluid text-center">
+      <span class="text-muted">&copy; 2019-2020 - Thibaud Bonneville</span>
+    </div>
+  </footer>
+
+  <!-- Librairies Boostrap -->
+  <script src="../bootstrap/jquery/jquery.min.js"></script>
+  <script src="../bootstrap/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
