@@ -1,15 +1,3 @@
-.centered {
-  text-align: center
-}
-
-.mt {
-  margin-top: 80px;
-}
-
-.mb {
-  margin-bottom: 80px;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -23,6 +11,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #4a4a4a;
 }
 
+.centered {
+  text-align: center
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
 .navbar-brand {
   font-weight: 700;
 }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default {
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -196,8 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #stage {
-  margin-top: -70px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -230,7 +229,6 @@ h1, h2, h3, h4, h5, h6 {
 /* formulaire de contact */
 
 #contact {
-  margin-top: 8%;
   padding: 40px 0;
 }
 
@@ -356,7 +354,6 @@ body {
 }
 
 #page_1 {
-  /* position: relative; */
   overflow: hidden;
   margin: 0% 0% 4% 0%;
   padding: 0px;
@@ -426,11 +423,10 @@ body {
 }
 
 .dclr {
+  margin-top: 100px;
   clear: both;
   float: none;
   height: 1px;
-  margin: 0px;
-  padding: 0px;
   overflow: hidden;
 }
 
@@ -906,6 +902,10 @@ i {
   border-right: 7px solid #333C42;
 }
 
+.row {
+  margin-top: 110px;
+}
+
 /* media queries */
 
 @media only screen and (min-width: 768px) {
@@ -980,17 +980,26 @@ i {
   .navbar-nav .open .dropdown-menu {
     background: white;
   }
-  .row {
-    margin-top: 100px;
-  }
   #espace {
     margin-top: 10% !important;
   }
   #veille-marge {
     margin-top: 15%;
   }
-  #stage {
-    padding-top: 50px !important;
+  .row {
+    margin-top: 0px;
+  }
+  .col-lg-6 {
+    padding-top: 60px !important;
+  }
+  .mb {
+    margin-bottom: 0px !important;
+  }
+  #contact {
+    margin-top: 8% !important;
+  }
+  #accueil {
+    margin-top: 15px !important;
   }
 }
 
@@ -1004,6 +1013,8 @@ i {
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 }
 
