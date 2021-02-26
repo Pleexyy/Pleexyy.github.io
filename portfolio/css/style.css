@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+.marge-article {
+  margin-top: 3%;
+}
+
 .border {
   border: 4px solid #ebebeb;
 }
@@ -348,7 +352,9 @@ p>a:hover::after {
 }
 
 .img {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .lvl {
@@ -1010,7 +1016,7 @@ i {
   #accueil {
     margin-top: 15px !important;
   }
-  .img-center {
+  .img-center, .img, .img-responsive2 {
     width: 100%;
   }
 }
