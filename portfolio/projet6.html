@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - Thibaud BONNEVILLE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.svg" rel="icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fichier style principal -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- barre de navigation statique -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Thibaud BONNEVILLE</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li class="active nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projets +
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <p><a class="dropdown-item" href="projet1.html">Jeu graphique C</a></p>
+                            <p><a class="dropdown-item" href="projet2.html">PPE site dynamique</a></p>
+                            <p><a class="dropdown-item" href="projet3.html">Jeu graphique Java</a></p>
+                            <p><a class="dropdown-item" href="projet4.html">GSB PHP</a></p>
+                            <p><a class="dropdown-item" href="projet5.html">GSBV2 Java</a></p>
+                            <p><a class="dropdown-item" href="projet6.html">GSB Conférence</a></p>
+                        </div>
+                    </li>
+                    <li><a href="veille.html" class="smoothscroll">Veille technologique</a></li>
+                    <li><a href="stage.html">Stage</a> </li>
+                    <li><a href="contact.html" class="smoothscroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sujet6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <h4 style="color:white;">Projet PPE (mars 2021)</h4>
+                    <h2 style="color:white;">Application - Gestion de conférences</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="works"></section>
+    <div class="container">
+        <div class="row centered mt mb">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>A PROPOS DU PROJET</h4>
+                <p>Ce projet a été réalisé durant ma deuxième année de BTS SIO.
+                    C'est une application web développée en PHP à l'aide du framework CodeIgniter et accessible après
+                    authentification.</p>
+                <p>
+                    L'objectif principal du projet est de donner la possibilité aux visiteurs de s'inscrire à des
+                    conférences, depuis l'interface web.
+                    Le responsable, quant à lui, est en charge d'établir les statistiques liées aux conférences.
+                </p>
+                <p>Les langages utilisés sont :</p>
+                <p>- PHP </p>
+                <p>- SQL</p>
+                <p>- HTML/CSS</p>
+                <p>- JavaScript/jQuery</p>
+                <p>L'organisation du code de notre projet est basée sur l’architecture MVC
+                    (Model-View-Controller). Cette dernière a pour objectif de bien organiser et structurer son code
+                    source. Elle consiste à distinguer trois entités différentes qui sont le Modèle, la Vue et le
+                    Contrôleur, chacun ayant un rôle bien précis dans l’interface.
+                </p>
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 mt">
+                <p>Quelques images de l'application web...</p>
+                <p style="margin-top: 5%;"><b>Page d'authentification</b></p>
+                <p>C'est à travers ce formulaire de connexion que s'identifient les visiteurs et le responsable de
+                    l'application.</p>
+                <img style='width: 45%; height: auto;' src="img/login-gsbc.png">
+                <p class="mg"><b>Page d'accueil du visiteur</b></p>
+                <p> Après la connexion du visiteur, il arrive sur sa page d'accueil lui indiquant ce qu’il
+                    va pouvoir retrouver sur son compte.
+                    Sur le menu latéral gauche se trouve la barre de navigation,
+                    permettant d'accéder aux différentes fonctionnalités disponibles.</p>
+                <img class="img-responsive" src="img/gsbc-visiteur.png">
+                <p class="mg"><b>Inscription aux conférences</b></p>
+                <p>Pour s’inscrire à une conférence, le visiteur doit se rendre dans le menu latéral gauche et cliquer
+                    sur “Inscription aux conférences”.
+                    A partir de là, le visiteur peut choisir sa conférence en cliquant sur le bouton “S’inscrire”.
+                </p>
+                <img class="img-responsive" src="img/gsbc-inscription.png">
+                <p class="mg">Un modal sera dès lors affiché et le visiteur devra cliquer sur le bouton “Je m’inscris”
+                    pour confirmer son inscription à la conférence.
+                </p>
+                <img class="border img-responsive2" src="img/modal-inscription.png">
+
+                <p class="mg"><b>Historique des inscriptions</b></p>
+                <p>En se rendant sur l’onglet “Historique des participations”, le visiteur peut se désinscrire d’une
+                    conférence auquelle il s’est au préalable inscrit.
+                </p>
+                <img class="border img-responsive" src="img/gsbc-historique.png">
+
+                <p class="mg">Modal de confirmation de désinscription</p>
+                <img class="border img-responsive2" src="img/gsbc-desinscrire.png">
+                <p style="margin-top: 4%;">
+                    Si l’historique des inscriptions est vide, un message est affiché au visiteur pour lui proposer de
+                    s’inscrire aux conférences disponibles.
+                </p>
+                <img class="border img-responsive2" src="img/gsbc-empty.png">
+                <p class="mg"><b>Etablir les statistiques</b></p>
+                <p>Lors de la connexion du responsable, il arrive sur une page d'accueil lui indiquant ce qu’il
+                    va pouvoir retrouver sur son compte. Sur le menu latéral gauche se trouve un second menu qui permet
+                    d’accéder à la page des statistiques.
+                </p>
+                <img class="img-responsive" src="img/gsbc-responsable.png">
+                <p class="mg"><b>Exportation des statistiques sous forme de PDF (pour le responsable)</b></p>
+                <p> Le responsables peut également décider de générer un fichier PDF, récapitulatif de toutes
+                    les statistiques.
+                    Pour cela, il doit simplement cliquer sur le bouton “Générer un PDF”.
+                    Un nouvel onglet sera alors ouvert. Voici un exemple de fichier PDF généré. On retrouve, en plus des
+                    statistiques, la date et l'heure à laquelle le fichier été généré ainsi que le nom du responsable.
+                </p>
+                <img class="border img-responsive2" src="img/gsbc-stats.png">
+                <p style="margin-top: 3%;">Notre projet s’est bien déroulé. Nous avons bien réparti les différentes
+                    tâches ainsi que le travail à faire. Nous sommes restés en contact et nous avons réalisé un git
+                    commun pour pouvoir continuer à travailler en collaboration.
+                    De ce fait, il était plus simple de réunir les avancées de chacun et de rassembler les morceaux de
+                    codes.
+                    L’application Web nous paraît complète et simple d'utilisation (grâce au respect des normes UI/UX)
+                    et tout ce que nous voulions faire a été fait dans les temps.
+                    Pour finir, ce projet a été une bonne solution pour approfondir les notions de PHP et découvrir un
+                    framework léger et puissant.
+                    Ce que j'ai aimé dans ce projet, c'est découvrir un framework libre en PHP. Je pense qu'il nous a
+                    davantage aidé à respecter l'architecture MVC de notre projet, grace aux dossiers et sous-dossiers
+                    déjà créés.
+                    J'ai également trouvé la documentation de CodeIgniter bien faite et compréhensible.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <div id="footer" class="footer-copyright text-center py-3">© 2021 Copyright - Thibaud BONNEVILLE</a>
+        </div>
+    </footer>
+
+    <!-- Librairies Boostrap -->
+    <script src="bootstrap/jquery/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
