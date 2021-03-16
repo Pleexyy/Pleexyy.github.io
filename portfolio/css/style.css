@@ -1074,3 +1074,8 @@ i {
     margin-bottom: 0;
   }
 }
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
